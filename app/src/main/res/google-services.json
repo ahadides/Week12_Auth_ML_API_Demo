@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "317352906150",
+    "project_id": "week9chatapp20232024",
+    "storage_bucket": "week9chatapp20232024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317352906150:android:d16a7689e6fce053cb1367",
+        "android_client_info": {
+          "package_name": "edu.farmingdale.alrajab.week9chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDjidmKmb3If2OdDwjdYoVlTggIdutqo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
