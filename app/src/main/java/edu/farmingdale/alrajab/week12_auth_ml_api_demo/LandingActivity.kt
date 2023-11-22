@@ -130,6 +130,8 @@ class LandingActivity : AppCompatActivity() {
                     // Handle the selected image URI from the gallery
                     val selectedImageUri = data.data
                     // Now you can use this URI to load the image ImageView
+                    binding.imageUrlField.setText(data.dataString)
+                    binding.imageHolder.setImageURI(selectedImageUri)
                     Toast.makeText(this, "Gallery Image selected: $selectedImageUri", Toast.LENGTH_SHORT).show()
                 } else {
                     // Gallery selection canceled or failed
